@@ -9,14 +9,14 @@ html {
 body {
     margin: auto;
     background-color: #1D1F21;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Minecraft', cursive;
     font-size: 1em;
     color: #c5c8c6;
     height: 100%;
 }
 
 header {
-    color: #4183F6;
+    color: #BB0B2F;
     text-align: center;
     padding: 75px 0px;
 }
@@ -30,7 +30,7 @@ header {
 
 #subtitle {
     font-size: 50%;
-    color: #c5c8c6;
+    color: #BB0B2F;
     margin: 0.25em;
 }
 
@@ -58,8 +58,9 @@ div.container {
 }
 
 .btitle {
+    font-family:'Press Start 2P', cursive;
     text-decoration: none;
-    color: #4183F6;
+    color: #FFFFFF;
 }
 
 .bcurrent {
@@ -67,6 +68,7 @@ div.container {
 }
 
 .tsection {
+    font-family:'Press Start 2P', cursive;
     box-sizing: border-box;
     border-left: 1px solid #c5c8c6;
     width: 25%;
@@ -96,8 +98,9 @@ div.container {
 }
 
 #main a {
-    color: #4183F6;
-    line-height: 1.5em; 
+    font-family:'Press Start 2P', cursive;
+    color: #BB0B2F;
+    line-height: 2em; 
 }
 
 .tlinks a:after {
