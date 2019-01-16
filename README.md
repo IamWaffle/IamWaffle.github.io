@@ -1,2 +1,2 @@
-# pspslimboy.github.io
-Basic GNU/Linux website.
+# shupe.co
+Basic personal website.
