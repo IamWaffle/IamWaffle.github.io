@@ -29,14 +29,14 @@ header {
 }
 
 #subtitle {
-    font-size: 50%;
+    font-size: 100%;
     color: #BB0B2F;
     margin: 0.25em;
 }
 
 div.container {
     text-align: center;
-    font-size: 50%;
+    font-size: 55%;
     width: 50%;
     margin: auto;
     min-width: 560px;
