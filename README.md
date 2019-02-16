@@ -1,2 +1,2 @@
-# shupe.co
+# rswaffle.com
 Basic personal website.
