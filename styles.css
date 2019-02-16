@@ -9,14 +9,14 @@ html {
 body {
     margin: auto;
     background-color: #1D1F21;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 1em;
-    color: #c5c8c6;
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.em;
+    color: #EEF5DB;
     height: 100%;
 }
 
 header {
-    color: #BB0B2F;
+    color: #EEF5DB;
     text-align: center;
     padding: 75px 0px;
 }
@@ -48,7 +48,7 @@ div.container {
 
 .bsection {
     box-sizing: border-box;
-    border-left: 1px solid #c5c8c6;
+    border-left: 1px solid #D3D0CB;
     width: 25%;
     height: 25px;
     float: left;
@@ -58,9 +58,10 @@ div.container {
 }
 
 .btitle {
-    font-family:'Press Start 2P', cursive;
+    font-family: 'Oxygen Mono', monospace;
+    font-size: 1.5em;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #EEF5DB;
 }
 
 .bcurrent {
@@ -68,9 +69,10 @@ div.container {
 }
 
 .tsection {
-    font-family:'Press Start 2P', cursive;
+    font-family: 'Oxygen Mono', monospace;
+    font-size: 1.4em;
     box-sizing: border-box;
-    border-left: 1px solid #c5c8c6;
+    border-left: 1px solid #EEF5DB;
     width: 25%;
     height: 300px;
     float: left;
@@ -82,15 +84,15 @@ div.container {
 }
 
 .tright {
-    border-right: 1px solid #c5c8c6;
+    border-right: 1px solid #EEF5DB;
 }
 
 .ttop {
-    border-top: 1px solid #c5c8c6;
+    border-top: 1px solid #EEF5DB;
 }
 
 .tbot {
-    border-bottom: 1px solid #c5c8c6;
+    border-bottom: 1px solid #EEF5DB;
 }
 
 .tnoleft {
@@ -98,8 +100,9 @@ div.container {
 }
 
 #main a {
-    font-family:'Press Start 2P', cursive;
-    color: #BB0B2F;
+    font-family: 'Oxygen Mono', monospace;
+    font-size: 1.2em;
+    color: #FE5F55;
     line-height: 2em; 
 }
 
