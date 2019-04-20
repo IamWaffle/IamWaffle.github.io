@@ -9,7 +9,7 @@ html {
 body {
     margin: auto;
     background-color: #1D1F21;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cutive Mono', monospace;
     font-size: 1.em;
     color: #EEF5DB;
     height: 100%;
@@ -18,11 +18,11 @@ body {
 header {
     color: #EEF5DB;
     text-align: center;
-    padding: 75px 0px;
+    padding: 30px 0px;
 }
 
 #title {
-    font-size: 350%;
+    font-size: 300%;
     /*letter-spacing: -1px;*/
     line-height: 100%;
     /*padding-bottom: 1em;*/
@@ -58,8 +58,8 @@ div.container {
 }
 
 .btitle {
-    font-family: 'Oxygen Mono', monospace;
-    font-size: 1.5em;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 1.7em;
     text-decoration: none;
     color: #EEF5DB;
 }
@@ -69,19 +69,15 @@ div.container {
 }
 
 .tsection {
-    font-family: 'Oxygen Mono', monospace;
-    font-size: 1.4em;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 1.8em;
     box-sizing: border-box;
     border-left: 1px solid #EEF5DB;
     width: 25%;
-    height: 300px;
+    height: 200px;
     float: left;
 }
 
-.ttitle {
-    margin: 2px;
-    padding-bottom: 1em;
-}
 
 .tright {
     border-right: 1px solid #EEF5DB;
@@ -100,8 +96,8 @@ div.container {
 }
 
 #main a {
-    font-family: 'Oxygen Mono', monospace;
-    font-size: 1.2em;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 1.1em;
     color: #FE5F55;
     line-height: 2em; 
 }
