@@ -1,65 +1,250 @@
-<!doctype html>
-<html>
-    <head>
-        <title>RSWaffle</title>
-        <link rel="stylesheet" href="styles.css">
-        <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
-        
-        <link rel="icon" href="SIcon.png">
-    </head>
-    
-    <body>
-        <header>
-            <p id="title"><font color = "#FE5F55">RSWaffle</font></p>
-            <p id="subtitle"></p>
-        </header>
-        
-        <div id="bar" class="container">
-            <a class="bsection btitle ttop tbot"
-               href="index.html">
-                Home
-            </a>
-            
-            <a class="bsection btitle ttop tbot bcurrent"
-               href="projects.html">
-                Projects
-            </a>
-            
-            <a class="bsection btitle ttop tbot"
-               href="about.html">
-                About
-            </a>
-            
-            <a class="bsection btitle ttop tbot tright"
-               href="specs.html">
-                Specs
-            </a>
-        </div>
-        
-        <div id="main" class="container">
-            <div class="tsection ttop tbot tright" style="width:100%; height:10%;" >
-                <p class="ttitle">Projects<br><br></p>
-                
-                <p style="text-align:left; margin: auto 25px; line-height: 13px;">
-                    The Projects page is split into sections. You can find all the projects that I have made individually or projects that I have had an influence with. <br><br>
-                    If you want to see all the projects without looking through the list, <a href="https://github.com/RSWaffle">click here</a>.
-                </p> <br style="line-height: 10px;">
+<!DOCTYPE html>
+<html lang="en">
 
-            </div>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>RSWaffle</title>
+    <link rel="icon" href="img/fav.png" type="image/x-icon">
 
-            <div class="tsection ttop tbot tlinks" style="height: 90px; width: 50%;">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
 
-                <p class="ttitle">Click <a href=projects2.html>here</a>to look at my University Projects.</p>
-            </div>
-            
-            <div class="tsection ttop tbot tright tlinks" style="height: 90px; width: 50%;">
-                <p class="ttitle">Click <a href=projects3.html>here</a>to look at my other Projects.</p>
-                
+    <!-- main css -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <!-- modernizr -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="pre-container">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
             </div>
         </div>
-    </body>
-    <div class="footer">
-    <img src="const.png" alt="constuction">
-        <p>v1.2.7</p>
     </div>
+    <!-- end Preloader -->
+
+    <div class="container-fluid">
+        <!-- box header -->
+        <header class="box-header">
+            <div class="box-logo">
+                <a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
+            </div>
+            <!-- box-nav -->
+            <a class="box-primary-nav-trigger" href="#0">
+                <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
+            </a>
+            <!-- box-primary-nav-trigger -->
+        </header>
+        <!-- end box header -->
+
+        <!-- nav -->
+        <nav>
+            <ul class="box-primary-nav">
+                <li class="box-label">About</li>
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Projects</a> <i class="ion-ios-circle-filled color"></i></li>
+                <li><a href="specs.html">Specs</a></li>
+            </ul>
+        </nav>
+        <!-- end nav -->
+    </div>
+
+    <!-- top bar -->
+    <div class="top-bar">
+        <h1>Projects</h1>
+        <p><a href="#">Home</a> / Projects</p>
+    </div>
+    <!-- end top bar -->
+    <p align="center">The Projects page is split into sections. You can find all the projects that I have made individually or projects that I have had an influence with. <br><br>
+
+If you want to see all the projects without looking through the list, click <a href="https://github.com/RSWaffle/" style="color:#FE5F53" target="_blank">here</a>.</p>
+
+    <div class="container main-container">
+        <div class="clearfix">
+            <h3>C# Projects</h3>
+            <!-- service-box -->
+            <div class="col-md-4 service-box">
+                <br><br>
+                <h3>Profiling Research Paper</h3>
+                <div class="h-10"></div>
+                <p>A research paper explaining the different types of sorting algorithms and their runtime efficiency. <br> 
+                <a href="https://github.com/RSWaffle/CSCI-2210-Projects/tree/master/Profiling%20Research" style="color:#FE5F53" target="_blank">Click Here</a></p>
+            </div>
+            <!-- end service-box -->
+
+            <!-- service-box -->
+            <div class="col-md-4 service-box">
+                <br><br>
+                <h3>Pig-Latin Translator:</h3>
+                <div class="h-10"></div>
+                <p>Translates from a text file or through the console to pig latin.<br> 
+                <a href="https://github.com/RSWaffle/CSCI-2210-Projects/tree/master/Pig%20Latin%20Translator" style="color:#FE5F53" target="_blank">Click Here</a></p>
+            </div>
+            <!-- end service-box -->
+
+            <!-- service-box -->
+            <div class="col-md-4 service-box">
+                <br><br>
+                <h3>Project 1: NameList</h3>
+                <div class="h-10"></div>
+                <p>A program that creates and handles a list of names.<br> 
+                <a href="https://github.com/RSWaffle/CSCI-2210-Projects/tree/master/Project%201" style="color:#FE5F53" target="_blank">Click Here</a></p>
+            </div>
+            <!-- end service-box -->
+
+            <!-- service-box -->
+            <div class="col-md-4 service-box">
+                <h3>Project 2: Namelist GUI</h3>
+                <div class="h-10"></div>
+                <p>Create a GUI to handle a list of names. Has an implemented spash and about screen. This project extends from project 1.<br> 
+                <a href="https://github.com/RSWaffle/CSCI-2210-Projects/tree/master/Project%202" style="color:#FE5F53" target="_blank">Click Here</a></p>
+            </div>
+            <!-- end service-box -->
+
+            <!-- service-box -->
+            <div class="col-md-4 service-box">  
+                <h3>Project 3: Base Converter</h3>
+                <div class="h-10"></div>
+                <p>A number converter that can convert any base 10 number to base 2-16, and vise versa.<br> 
+                <a href="https://github.com/RSWaffle/CSCI-2210-Projects/tree/master/Project%203" style="color:#FE5F53" target="_blank">Click Here</a></p>
+            </div>
+            <!-- end service-box -->
+
+            <!-- service-box -->
+            <div class="col-md-4 service-box">
+                <h3>Project 4: Supermarket Simulation</h3>
+                <div class="h-10"></div>
+                <p>A program that creates a supermarket and simulates the work day with customers at the register, utilizing a priority queue.<br> 
+                <a href="https://github.com/RSWaffle/CSCI-2210-Projects/tree/master/Project%204" style="color:#FE5F53" target="_blank">Click Here</a></p>
+            </div>
+            <!-- end service-box -->
+            
+            <div class="col-md-4 service-box">
+                <h3>Project 5: B-Tree</h3>
+                <div class="h-10"></div>
+                <p>A GUI application that creates and displays a B-Tree. Search funtionallity and adding custom values. <br> 
+                <a href="https://github.com/RSWaffle/CSCI-2210-Projects/tree/master/Project%204" style="color:#FE5F53" target="_blank">Click Here</a></p>
+            </div>
+        </div>
+        
+                <div class="clearfix">
+            <h3>Java Projects</h3>
+                    
+            <!-- service-box -->
+            <div class="col-md-4 service-box">
+                <br><br>
+                <h3>Zork</h3>
+                <div class="h-10"></div>
+                <p>Fully functional Zork game that works in the console.<br> 
+                <a href="https://github.com/RSWaffle/CSCI-1260-Projects/tree/master/Project%204" style="color:#FE5F53" target="_blank">Click Here</a></p>
+            </div>
+            <!-- end service-box -->
+
+            <!-- service-box -->
+            <div class="col-md-4 service-box">
+                <br><br>
+                <h3>Address Book:</h3>
+                <div class="h-10"></div>
+                <p>A program that creates a contact and stores it in an address book. You can look at different attributes of a contact. (This progect was 2 seperate projects. The one linked is the final completed project that branched off of the first.)<br> 
+                <a href="https://github.com/RSWaffle/CSCI-1260-Projects/tree/master/Project%203" style="color:#FE5F53" target="_blank">Click Here</a></p>
+            </div>
+            <!-- end service-box -->
+                    
+            <!-- service-box -->
+            <div class="col-md-4 service-box">
+                <br><br>
+                <h3>Deck of Cards:</h3>
+                <div class="h-10"></div>
+                <p>Simple little project to showcase random numbers and dealing a deck of cards.<br> 
+                <a href="https://github.com/RSWaffle/CSCI-1260-Projects/tree/master/Project%201" style="color:#FE5F53" target="_blank">Click Here</a></p><br><br><br>
+            </div>
+            <!-- end service-box -->
+                    
+            <!-- service-box -->
+            <div class="col-md-4 service-box">
+
+                <h3>Customer Order:</h3>
+                <div class="h-10"></div>
+                <p>This is a program where the user is asked how many widgets and gadgets they would like to purchase. They can choose shipping options, etc.. The program also keeps track of how many orders are in the system. (Up to 3 orders) <br> 
+                <a href="https://github.com/RSWaffle/CSCI-1250-Projects/tree/master/ShupeRyanProject4" style="color:#FE5F53" target="_blank">Click Here</a></p>
+            </div>
+            <!-- end service-box -->
+                    
+            <div class="col-md-4 service-box">
+
+                <h3>Deck of Cards:</h3>
+                <div class="h-10"></div>
+                <p>Simple little project to showcase random numbers and dealing a deck of cards.<br> 
+                <a href="https://github.com/RSWaffle/CSCI-1260-Projects/tree/master/Project%201" style="color:#FE5F53" target="_blank">Click Here</a></p>
+            </div>
+
+            <div class="col-md-4 service-box">
+
+                <h3>Student Grade Calculator:</h3>
+                <div class="h-10"></div>
+                <p>Simple program that calculates the letter grade and GPA of a student. <br> 
+                <a href="https://github.com/RSWaffle/CSCI-1250-Projects/tree/master/ShupeRyanProject3" style="color:#FE5F53" target="_blank">Click Here</a></p><br><br><br>
+            </div>
+                    
+            <div class="col-md-4 service-box">
+
+                <h3>Ticket Price Calculator:</h3>
+                <div class="h-10"></div>
+                <p>This is the very first project I completed in CSCI 1250. It is a basic price calulator but selecting different options for checkout.<br> 
+                <a href="https://github.com/RSWaffle/CSCI-1250-Projects/tree/master/ShupeRyanProject2" style="color:#FE5F53" target="_blank">Click Here</a></p>
+            </div>
+
+            
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid">
+            <p class="copyright">RSWaffle v3.0.1</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- back to top -->
+    <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
+    <!-- end back to top -->
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <!--  plugins -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/animated-headline.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+
+
+    <!--  custom script -->
+    <script src="js/custom.js"></script>
+
+</body>
+
 </html>
